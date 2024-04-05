@@ -445,6 +445,9 @@ footer .footer-contact {
 }
 
 @media screen and (max-width: 1399px) {
+  .about-us .tutorial-link {
+    padding: 28px 34px;
+  }
   .how-it-works .col-lg-3:nth-child(2) .steps::before,
   .how-it-works .col-lg-3:nth-child(4) .steps::after,
   .how-it-works .col-lg-3:nth-child(4) .steps::before {
@@ -456,6 +459,9 @@ footer .footer-contact {
   }
 }
 @media screen and (max-width: 1199px) {
+  .about-us .tutorial-link {
+    outline: 10px solid #fff;
+  }
   .how-it-works .col-lg-3:nth-child(2) .steps::before,
   .how-it-works .col-lg-3:nth-child(4) .steps::after,
   .how-it-works .col-lg-3:nth-child(4) .steps::before {
@@ -474,6 +480,9 @@ footer .footer-contact {
   }
   .about-us .about-us-link-img {
     margin-top: 80px;
+  }
+  .about-us .tutorial-link {
+    padding: 28px 44px;
   }
   .how-it-works .col-lg-3:nth-child(3) .steps,
   .how-it-works .col-lg-3:nth-child(5) .steps {
