@@ -248,7 +248,7 @@ nav .login:hover {
   margin-bottom: 12px;
 }
 .why-us .resons {
-  background-position: center;
+  background-position: right bottom;
   padding: 40px;
   height: 600px;
   background-repeat: no-repeat;
@@ -367,6 +367,7 @@ nav .login:hover {
 .footer {
   background-color: #1f2937;
   color: #f0f4f8;
+  padding-top: 40px;
 }
 .footer-links ul {
   list-style: none;
@@ -416,6 +417,7 @@ nav .login:hover {
   padding: 16px 80px;
   display: inline-block;
   width: 100%;
+  border-color: #6b7280 !important;
 }
 .footer .copyright p {
   float: left;
@@ -440,9 +442,6 @@ footer .footer-contact {
 }
 .footer .credits {
   float: right;
-}
-.footer .border-top {
-  border-color: #6b7280 !important;
 }
 
 @media screen and (max-width: 1399px) {
@@ -493,14 +492,33 @@ footer .footer-contact {
     height: 320px;
   }
   .why-us .icon-bg + h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .heading-g-color {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  .sub-heading {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  nav .navbar-nav {
+    gap: 0;
+    align-items: flex-start;
+    margin-top: 16px;
+  }
   nav .navbar-brand img {
     width: 107px;
     height: auto;
+  }
+  nav .navbar-nav .container-fluid {
+    padding: 0;
+    margin-top: 8px;
   }
   .hero {
     padding: 60px 0 83px;
@@ -514,6 +532,13 @@ footer .footer-contact {
   }
   .hero .btn {
     font-size: 14px;
+  }
+  .about-us {
+    padding-top: 64px;
+  }
+  .about-us .about-text {
+    font-size: 16px;
+    line-height: 24px;
   }
   .about-us .about-us-link-img {
     gap: 12px;
@@ -562,5 +587,61 @@ footer .footer-contact {
   }
   .about-us .know-more a {
     margin-top: 24px;
+  }
+  .why-us {
+    padding-bottom: 64px;
+  }
+  .why-us .sub-heading {
+    margin-bottom: 0;
+  }
+  .why-us .resons {
+    height: 400px;
+    margin-top: 32px;
+    padding: 32px 24px;
+  }
+  .how-it-works .heading-g-color {
+    margin-bottom: 0;
+  }
+  .how-it-works .container .row .steps {
+    margin-top: 48px;
+    max-width: 240px;
+  }
+  .how-it-works .steps h2 {
+    max-width: 100%;
+  }
+  .faq {
+    padding: 64px 0;
+  }
+  .faq .heading-g-color {
+    margin-bottom: 24px;
+  }
+  .faq .faq-subheading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footer-about .logo img {
+    width: 119px;
+    height: auto;
+  }
+  footer .footer-links,
+  footer .footer-contact {
+    margin-top: 48px;
+  }
+  .footer-links ul {
+    margin-bottom: 0;
+  }
+  .footer-links ul li a {
+    margin: 16px 0 0;
+  }
+  .footer .copyright {
+    padding: 16px;
+  }
+  .footer .copyright p {
+    float: none;
+    text-align: left;
+  }
+  .footer .credits {
+    float: none;
+    margin: 12px 0 16px;
   }
 }
