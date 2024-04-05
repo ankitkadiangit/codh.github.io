@@ -221,13 +221,13 @@ nav .login:hover {
   margin-bottom: 40px;
 }
 .why-us .first-r-bg {
-  background-image: url(/assets/images/benefit.jpg);
+  background-image: url(../images/benefit.jpg);
 }
 .why-us .second-r-bg {
-  background-image: url(/assets/images/library.jpg);
+  background-image: url(../images/library.jpg);
 }
 .why-us .third-r-bg {
-  background-image: url(/assets/images/activity.jpg);
+  background-image: url(../images/activity.jpg);
 }
 .why-us .icon-bg + h2 {
   font-size: 36px;
