@@ -43,6 +43,12 @@
 }
 /* Button code ends */
 
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:focus-visible {
+  box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+}
 .heading-g-color {
   font-size: 30px;
   font-weight: 400;
