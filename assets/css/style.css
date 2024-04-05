@@ -24,6 +24,14 @@
 }
 
 /* Global code starts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
 .primary {
   background: #134173;
   box-shadow: none;
@@ -499,9 +507,39 @@ footer .footer-contact {
   margin: 20px 0 0;
 }
 .assessment .inner-content .btn {
-  margin-top: 20px;
+  margin-top: 24px;
 }
 /* Peter self enrolled page code ends */
+
+/* Assessment intro page code starts */
+.assessment-intro {
+  background-color: #f9fafb;
+}
+.assessment-intro .cards-outer {
+  max-width: 100%;
+  margin-top: 48px;
+}
+.assessment-intro .cards-outer h3 {
+  margin-top: 0;
+}
+.assessment-intro .cards-outer p {
+  margin-top: 0;
+}
+.assessment-intro .card p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+.assessment-intro .card {
+  padding: 32px 0 8px;
+  margin-top: 32px;
+  border: none;
+  box-shadow: 0 5px 13px #e5e5e5;
+}
+.assessment-intro .card-img-top {
+  width: max-content;
+  margin: auto;
+}
+/* Assessment intro page code ends */
 
 @media screen and (max-width: 1399px) {
   /* Homepage code starts */
