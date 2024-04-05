@@ -23,7 +23,7 @@
   font-family: Inter;
 }
 
-/* Button code starts */
+/* Global code starts */
 .primary {
   background: #134173;
   box-shadow: none;
@@ -41,8 +41,6 @@
   color: #fff;
   border-color: #134173;
 }
-/* Button code ends */
-
 .accordion-button:focus {
   box-shadow: none;
 }
@@ -105,7 +103,9 @@ nav .login:hover {
   columns: #fff;
   border: 1.5px solid #134173;
 }
+/* Global code ends */
 
+/* Homepage code starts */
 .hero {
   padding: 50px 0 150px;
 }
@@ -443,8 +443,10 @@ footer .footer-contact {
 .footer .credits {
   float: right;
 }
+/* Homepage code ends */
 
 @media screen and (max-width: 1399px) {
+  /* Homepage code starts */
   .about-us .tutorial-link {
     padding: 28px 34px;
   }
@@ -457,8 +459,10 @@ footer .footer-contact {
   .how-it-works .col-lg-3:nth-child(4) .steps::after {
     left: -110px;
   }
+  /* Homepage code ends */
 }
 @media screen and (max-width: 1199px) {
+  /* Homepage code starts */
   .about-us .tutorial-link {
     outline: 10px solid #fff;
   }
@@ -473,8 +477,10 @@ footer .footer-contact {
     left: -89px;
     top: -160px;
   }
+  /* Homepage code ends */
 }
 @media screen and (max-width: 991px) {
+  /* Homepage code starts */
   .about-us .about-us-content {
     margin-top: 0;
   }
@@ -503,9 +509,11 @@ footer .footer-contact {
   .why-us .icon-bg + h2 {
     font-size: 26px;
   }
+  /* Homepage code ends */
 }
 
 @media screen and (max-width: 767px) {
+  /* Homepage code starts */
   .heading-g-color {
     font-size: 24px;
     line-height: 32px;
@@ -653,4 +661,5 @@ footer .footer-contact {
     float: none;
     margin: 12px 0 16px;
   }
+  /* Homepage code ends */
 }
