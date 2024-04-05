@@ -106,26 +106,21 @@ nav .login:hover {
   border: 1.5px solid #134173;
 }
 
-.hero-heading.display-4.fw-bold {
-  font-size: 72px;
-  line-height: 90px;
-}
 .hero {
   padding: 50px 0 150px;
 }
-
-.hero .btn {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  padding: 16px 24px;
-}
-
 .hero .hero-heading {
+  font-size: 72px;
+  line-height: 125%;
   max-width: 800px;
   margin: auto;
 }
-
+.hero .btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 16px 24px;
+}
 .about-us {
   padding: 160px 0 0;
 }
@@ -164,6 +159,7 @@ nav .login:hover {
 .about-us .tutorial-link h4 {
   font-size: 14px;
   font-weight: 700;
+  margin: 4px 0 0;
 }
 .about-us .happy-person-img {
   width: 230px;
@@ -238,7 +234,7 @@ nav .login:hover {
 .why-us .icon-bg + h2 {
   font-size: 36px;
   font-weight: 600;
-  line-height: 44px;
+  line-height: 125%;
   letter-spacing: -0.02em;
   text-align: left;
   color: #fff;
@@ -261,7 +257,7 @@ nav .login:hover {
 
 .how-it-works {
   background: #f0f4f8;
-  padding: 56px 80px 56px;
+  padding: 56px 0;
 }
 .how-it-works .heading-g-color {
   color: #134173;
@@ -458,5 +454,113 @@ footer .footer-contact {
   }
   .how-it-works .col-lg-3:nth-child(4) .steps::after {
     left: -110px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .how-it-works .col-lg-3:nth-child(2) .steps::before,
+  .how-it-works .col-lg-3:nth-child(4) .steps::after,
+  .how-it-works .col-lg-3:nth-child(4) .steps::before {
+    width: 156px;
+    right: -88px;
+    top: -14px;
+  }
+  .how-it-works .col-lg-3:nth-child(4) .steps::after {
+    left: -89px;
+    top: -160px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about-us .about-us-content {
+    margin-top: 0;
+  }
+  .about-us .about-us-link-img {
+    margin-top: 80px;
+  }
+  .how-it-works .col-lg-3:nth-child(3) .steps,
+  .how-it-works .col-lg-3:nth-child(5) .steps {
+    margin-top: 0;
+  }
+  .how-it-works .col-lg-3:nth-child(2) .steps::before,
+  .how-it-works .col-lg-3:nth-child(4) .steps::after,
+  .how-it-works .col-lg-3:nth-child(4) .steps::before {
+    display: none;
+  }
+  .why-us .why-us-content {
+    margin-top: 0;
+  }
+  .why-us .resons {
+    padding: 16px;
+    height: 320px;
+  }
+  .why-us .icon-bg + h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav .navbar-brand img {
+    width: 107px;
+    height: auto;
+  }
+  .hero {
+    padding: 60px 0 83px;
+  }
+  .hero .hero-heading {
+    font-size: 36px;
+  }
+  .hero .lead {
+    margin: 16px 0 24px !important;
+    font-size: 16px;
+  }
+  .hero .btn {
+    font-size: 14px;
+  }
+  .about-us .about-us-link-img {
+    gap: 12px;
+  }
+  .about-us .happy-person-img {
+    width: auto;
+    height: 112px;
+  }
+  .about-us .tutorial-link {
+    padding: 8px 16px 12px;
+    outline: 12px solid #fff;
+    left: -90px;
+  }
+  .about-us .tutorial-link h4 {
+    font-size: 12px;
+  }
+  .about-us .new-users {
+    padding: 16px;
+  }
+  .about-us .new-users h6,
+  p {
+    margin-bottom: 0;
+  }
+  .about-us .new-users h6,
+  .about-us .new-users p {
+    font-size: 10px;
+  }
+  .about-us .new-users h1 {
+    font-size: 46px;
+    margin: 6px 0;
+  }
+  .about-us .know-more {
+    padding: 112px 16px 16px;
+    top: -130px;
+    height: 257px;
+  }
+  .about-us .know-more img {
+    top: -40px;
+    right: 0px;
+    width: 142px;
+    height: 142px;
+  }
+  .about-us .know-more-text,
+  .about-us .know-more a {
+    font-size: 14px;
+  }
+  .about-us .know-more a {
+    margin-top: 24px;
   }
 }
