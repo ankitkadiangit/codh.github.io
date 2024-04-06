@@ -523,11 +523,12 @@ footer .footer-contact {
   margin-top: 0;
 }
 .assessment-intro .cards-outer p {
-  margin: 0 0 32px;
+  margin: 0 0 8px;
 }
 .assessment-intro .card p {
   font-size: 14px;
   margin-top: 8px;
+  color: #6b7280;
 }
 .assessment-intro .card {
   padding: 40px 0 0;
@@ -540,6 +541,48 @@ footer .footer-contact {
   margin: auto;
 }
 /* Assessment intro page code ends */
+
+/* Reports page code starts */
+.assessment-intro #reports h5 {
+  font-weight: 500;
+  color: #1d4373;
+}
+.assessment-intro #reports .btn {
+  margin: 8px 0 16px;
+}
+/* Reports page code ends */
+
+/* My account page code starts */
+#my-account {
+  max-width: 650px;
+  margin: 48px auto 0;
+}
+#my-account .card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px 28px;
+  flex-direction: row;
+  margin-top: 16px;
+  width: 100%;
+}
+#my-account .card > img {
+  width: 32px;
+  height: 32px;
+}
+#my-account .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+#my-account .card-body h5 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #1d4373;
+}
+/* My account page code ends */
 
 @media screen and (max-width: 1399px) {
   /* Homepage code starts */

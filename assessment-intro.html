@@ -47,8 +47,8 @@
       <p class="welcome-back">Welcome back</p>
       <ul class="nav nav-tabs justify-content-end" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-            role="tab" aria-controls="home" aria-selected="true">
+          <button class="nav-link active" id="assessments-tab" data-bs-toggle="tab" data-bs-target="#assessments"
+            type="button" role="tab" aria-controls="home" aria-selected="true">
             <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M4.28122 8.36155V1.06475C4.28122 0.879095 4.20813 0.701047 4.07804 0.569771C3.94794 0.438496 3.77148 0.364746 3.5875 0.364746C3.40351 0.364746 3.22706 0.438496 3.09696 0.569771C2.96686 0.701047 2.89377 0.879095 2.89377 1.06475V8.36155C2.44092 8.50696 2.04566 8.79397 1.76517 9.18105C1.48468 9.56814 1.3335 10.0352 1.3335 10.5147C1.3335 10.9943 1.48468 11.4614 1.76517 11.8484C2.04566 12.2355 2.44092 12.5225 2.89377 12.6679V13.6647C2.89377 13.8504 2.96686 14.0284 3.09696 14.1597C3.22706 14.291 3.40351 14.3647 3.5875 14.3647C3.77148 14.3647 3.94794 14.291 4.07804 14.1597C4.20813 14.0284 4.28122 13.8504 4.28122 13.6647V12.6679C4.73407 12.5225 5.12933 12.2355 5.40982 11.8484C5.69032 11.4614 5.8415 10.9943 5.8415 10.5147C5.8415 10.0352 5.69032 9.56814 5.40982 9.18105C5.12933 8.79397 4.73407 8.50696 4.28122 8.36155ZM3.5875 11.3897C3.41599 11.3897 3.24833 11.3384 3.10573 11.2423C2.96313 11.1461 2.85198 11.0095 2.78635 10.8496C2.72071 10.6897 2.70354 10.5138 2.737 10.344C2.77046 10.1743 2.85305 10.0184 2.97432 9.89603C3.0956 9.77366 3.25011 9.69032 3.41832 9.65656C3.58653 9.6228 3.76089 9.64013 3.91934 9.70635C4.0778 9.77258 4.21323 9.88473 4.30851 10.0286C4.4038 10.1725 4.45466 10.3417 4.45466 10.5147C4.45429 10.7467 4.36281 10.969 4.20027 11.1331C4.03772 11.2971 3.81737 11.3894 3.5875 11.3897Z"
@@ -63,7 +63,7 @@
             Assessments</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+          <button class="nav-link" id="reports-tab" data-bs-toggle="tab" data-bs-target="#reports" type="button"
             role="tab" aria-controls="profile" aria-selected="false">
             <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_368_5076)">
@@ -80,7 +80,7 @@
             Reports</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+          <button class="nav-link" id="my-account-tab" data-bs-toggle="tab" data-bs-target="#my-account" type="button"
             role="tab" aria-controls="contact" aria-selected="false">
             <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_368_5079)">
@@ -98,12 +98,12 @@
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="tab-pane fade show active" id="assessments" role="tabpanel" aria-labelledby="home-tab">
           <div class="inner-content cards-outer">
             <h3>Self-Assessment</h3>
             <p>This is a non-supervised assessment which takes about 20 minutes</p>
             <div class="row">
-              <div class="col">
+              <div class="col-md-3 mt-4">
                 <div class="card">
                   <img src="assets/images/assessment-1.svg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -113,7 +113,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-md-3 mt-4">
                 <div class="card">
                   <img src="assets/images/assessment-2.svg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -123,7 +123,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-md-3 mt-4">
                 <div class="card">
                   <img src="assets/images/assessment-3.svg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -133,7 +133,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col-md-3 mt-4">
                 <div class="card">
                   <img src="assets/images/assessment-4.svg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -154,8 +154,100 @@
             </a>
           </div>
         </div>
-        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+        <div class="tab-pane fade" id="reports" role="tabpanel" aria-labelledby="reports-tab">
+          <div class="inner-content cards-outer mt-3">
+            <div class="row">
+              <div class="col-md-4 mt-4">
+                <div class="card">
+                  <img src="assets/images/report-icon.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Your Assessment Report</h5>
+                    <p class="card-text">Placeholder text Placeholder text Placeholder text Placeholder text Placeholder
+                      text</p>
+                    <a href="" class="btn btn-outline-secondar secondary">Download PDF</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="card">
+                  <img src="assets/images/report-icon.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Your Assessment Report</h5>
+                    <p class="card-text">Placeholder text Placeholder text Placeholder text Placeholder text Placeholder
+                      text</p>
+                    <a href="" class="btn btn-outline-secondar secondary">Download PDF</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="card">
+                  <img src="assets/images/report-icon.svg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Your Assessment Report</h5>
+                    <p class="card-text">Placeholder text Placeholder text Placeholder text Placeholder text Placeholder
+                      text</p>
+                    <a href="" class="btn btn-outline-secondar secondary">Download PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="my-account" role="tabpanel" aria-labelledby="my-account-tab">
+          <button class="card" type="button" data-bs-toggle="modal" data-bs-target="#profileModal">
+            <img src="assets/images/profile.svg" class="img-fluid rounded-start" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">My Profile</h5>
+              <img src="assets/images/arrow-right.svg" alt="">
+            </div>
+          </button>
+          <button class="card">
+            <img src="assets/images/study.svg" class="img-fluid rounded-start" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">My Study Partner</h5>
+              <img src="assets/images/arrow-right.svg" alt="">
+            </div>
+          </button>
+          <button class="card">
+            <img src="assets/images/setting.svg" class="img-fluid rounded-start" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Preferences Setting</h5>
+              <img src="assets/images/arrow-right.svg" alt="">
+            </div>
+          </button>
+          <button class="card">
+            <img src="assets/images/help.svg" class="img-fluid rounded-start" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Help with your account</h5>
+              <img src="assets/images/arrow-right.svg" alt="">
+            </div>
+          </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">My Profile</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
