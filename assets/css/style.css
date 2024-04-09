@@ -32,23 +32,33 @@ h5,
 h6 {
   font-weight: 700;
 }
-.primary {
+.btn-primary {
   background: #134173;
   box-shadow: none;
-  border-color: #134173;
+  border: 1.5px solid #134173;
+  padding: 8px 24px;
+}
+.btn-primary:hover {
+  background-color: #092a4d;
+  border-color: #092a4d;
+}
+.btn-lg {
   padding: 16px 24px;
 }
-.primary:hover {
-  background-color: #134173;
-}
-.secondary {
-  border: 1.5px solid #134173;
+.btn-outline-secondary {
+  padding: 8px 24px;
+  gap: 8px;
+  border-radius: 8px;
   color: #134173;
+  border: 1.5px solid #134173;
 }
-.secondary:hover {
-  background: #134173;
-  color: #fff;
+.btn-outline-secondary:hover {
+  background-color: #134173;
   border-color: #134173;
+  color: #fff;
+}
+.modal-footer {
+  padding-right: 64px;
 }
 .accordion-button:focus {
   box-shadow: none;
@@ -95,22 +105,6 @@ header .nav-item .nav-link {
   font-weight: 400;
   line-height: 30px;
   color: #134173;
-}
-header .login {
-  width: Hug (95px) px;
-  height: Hug (40px) px;
-  padding: 8px 24px 8px 24px;
-  gap: 8px;
-  border-radius: 8px;
-  color: #134173;
-  border: 1.5px solid;
-  opacity: 0px;
-  background-color: #f9fafb;
-}
-header .login:hover {
-  background-color: #134173;
-  columns: #fff;
-  border: 1.5px solid #134173;
 }
 header .avatar {
   width: 40px;
@@ -605,6 +599,9 @@ footer .footer-contact {
 .form-select {
   border-color: #6882a1;
   height: 48px;
+}
+textarea.form-control {
+  height: auto;
 }
 .modal-body {
   padding: 24px 64px 56px;
