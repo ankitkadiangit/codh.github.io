@@ -656,7 +656,7 @@ textarea.form-control {
   margin-left: auto;
 }
 .participant-register main {
-  padding: 120px 160px;
+  padding: 64px 100px;
   flex: 0 0 69%;
   width: 69%;
   background-color: #fff;
@@ -692,13 +692,29 @@ textarea.form-control {
   align-items: center;
   justify-content: center;
 }
-.participant-register .step.active span:first-of-type {
+/* .participant-register .step.active span:first-of-type {
   background-color: var(--codh-primary);
   color: #fff;
-}
-.participant-register .step.active {
+} */
+/* .participant-register .step.active {
   color: var(--codh-primary);
   font-weight: 600;
+} */
+.participant-register .step.completed {
+  position: relative;
+}
+.participant-register .step.completed::before {
+  content: "✓";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: var(--codh-primary);
+  border-radius: 50px;
+  color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 .participant-register .step:not(:last-child)::after {
   content: "";
@@ -714,12 +730,20 @@ textarea.form-control {
   height: 24px;
   margin-right: 12px;
 }
+.participant-register .already-member a {
+  font-weight: 600;
+}
 .participant-register #nextBtn {
   width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+.participant-register input,
+.participant-register select {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
 }
 /* Participant register code ends */
 

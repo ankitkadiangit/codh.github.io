@@ -258,8 +258,75 @@
           </div>
         </div>
         <div class="step-content d-none" id="step3-content">
-          <h2>Step 3</h2>
-          <p>This is step 3 content.</p>
+          <form action="">
+            <div class="row">
+              <h4 class="mb-4">Your Account Details</h3>
+                <div class="col-md-4">
+                  <div class="mb-4">
+                    <label for="firstname" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstname" required>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mb-4">
+                    <label for="lastname" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastname" required>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="mb-4">
+                    <label for="dob" class="form-label">DOB</label>
+                    <input type="date" class="form-control" id="dob" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-4">
+                    <label for="gender" class="form-label">Gender</label>
+                    <select id="gender" class="form-select" required>
+                      <option>Male</option>
+                      <option selected>Female</option>
+                      <option>Non-binary</option>
+                      <option>Prefer not to answer</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-4">
+                    <label for="aboriginal" class="form-label">Aboriginal or Torres Strait Islander</label>
+                    <select id="aboriginal" class="form-select" required>
+                      <option>Neither Aboriginal or Torres Strait Islander origin</option>
+                      <option selected>Aboriginal but not Torres Strait Islander origin</option>
+                      <option>Torres Strait Islander but not Aboriginal origin</option>
+                      <option>Both Aboriginal or Torres Strait Islander origin</option>
+                      <option>Prefer not to respond</option>
+                      <option>Unknown</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mb-4">
+                    <label for="phonenumber" class="form-label">Phone / Mobile</label>
+                    <input type="tel" class="form-control" id="phonenumber" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-4">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" required>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-check d-flex">
+                    <input class="form-check-input" type="checkbox" value="" id="register-check">
+                    <label class="form-check-label mt-1" for="register-check">
+                      Please don’t send me any study updates or news communications.
+                    </label>
+                  </div>
+                </div>
+            </div>
+          </form>
         </div>
 
         <!-- Navigation buttons -->

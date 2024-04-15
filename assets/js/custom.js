@@ -17,6 +17,8 @@ function showStep(stepNumber) {
 
 function nextStep() {
   if (currentStep < steps.length) {
+    // Add "completed" class to the previous step
+    steps[currentStep - 1].classList.add("completed");
     currentStep++;
     showStep(currentStep);
   }
