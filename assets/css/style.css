@@ -19,6 +19,10 @@
   font-weight: 700;
 }
 
+:root {
+  --codh-primary: #134173;
+}
+
 * {
   font-family: Inter;
 }
@@ -33,9 +37,9 @@ h6 {
   font-weight: 700;
 }
 .btn-primary {
-  background: #134173;
+  background: var(--codh-primary);
   box-shadow: none;
-  border: 1.5px solid #134173;
+  border: 1.5px solid var(--codh-primary);
   padding: 8px 24px;
 }
 .btn-primary:hover {
@@ -49,13 +53,40 @@ h6 {
   padding: 8px 24px;
   gap: 8px;
   border-radius: 8px;
-  color: #134173;
-  border: 1.5px solid #134173;
+  color: var(--codh-primary);
+  border: 1.5px solid var(--codh-primary);
 }
 .btn-outline-secondary:hover {
-  background-color: #134173;
-  border-color: #134173;
+  background-color: var(--codh-primary);
+  border-color: var(--codh-primary);
   color: #fff;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #fff;
+  background-color: var(--codh-primary);
+  border-color: var(--codh-primary);
+}
+.btn-outline-primary {
+  --bs-btn-color: var(--codh-primary);
+  --bs-btn-border-color: var(--codh-primary);
+  --bs-btn-hover-bg: var(--codh-primary);
+  --bs-btn-hover-border-color: var(--codh-primary);
+  --bs-btn-active-bg: var(--codh-primary);
+  --bs-btn-active-border-color: var(--codh-primary);
+  --bs-btn-disabled-color: var(--codh-primary);
+  --bs-btn-disabled-border-color: var(--codh-primary);
+}
+.btn-link {
+  color: var(--codh-primary);
+  text-decoration: none;
+}
+.form-check-input:checked {
+  background-color: var(--codh-primary);
+  border-color: var(--codh-primary);
 }
 .modal-footer {
   padding-right: 64px;
@@ -104,7 +135,7 @@ header .nav-item .nav-link {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  color: #134173;
+  color: var(--codh-primary);
 }
 header .avatar {
   width: 40px;
@@ -184,7 +215,7 @@ header .avatar {
 .about-us .new-users {
   display: inline-block;
   padding: 24px 24px 2px;
-  background-color: #134173;
+  background-color: var(--codh-primary);
   border-radius: 15px;
   color: #fff;
   height: max-content;
@@ -269,17 +300,17 @@ header .avatar {
   padding: 56px 0;
 }
 .how-it-works .heading-g-color {
-  color: #134173;
+  color: var(--codh-primary);
   margin-bottom: 60px;
 }
 .how-it-works .heading-g-color::after {
-  color: #134173;
+  color: var(--codh-primary);
 }
 .how-it-works .step-number {
   font-size: 24px;
   font-weight: 500;
   color: #fff;
-  background-color: #134173;
+  background-color: var(--codh-primary);
   display: inline-block;
   border-radius: 100%;
   width: 40px;
@@ -334,7 +365,7 @@ header .avatar {
   padding: 100px 0;
 }
 .faq .heading-g-color {
-  color: #134173;
+  color: var(--codh-primary);
   margin-bottom: 38px;
 }
 
@@ -476,14 +507,14 @@ footer .footer-contact {
   margin-right: 4px;
 }
 .assessment .nav-tabs .nav-link.active {
-  color: #134173;
+  color: var(--codh-primary);
   border: none;
-  border-bottom: 2px solid #134173;
+  border-bottom: 2px solid var(--codh-primary);
   background-color: transparent;
   font-weight: 700;
 }
 .assessment .nav-tabs .nav-link.active svg path {
-  fill: #134173;
+  fill: var(--codh-primary);
 }
 .assessment .inner-content {
   text-align: center;
@@ -593,7 +624,7 @@ footer .footer-contact {
   right: 32px;
 }
 .form-label {
-  color: #134173;
+  color: var(--codh-primary);
 }
 .form-control,
 .form-select {
@@ -607,6 +638,90 @@ textarea.form-control {
   padding: 24px 64px 56px;
 }
 /* My account page code ends */
+
+/* Participant register code starts */
+.participant-register {
+  display: flex;
+  background-color: var(--codh-primary);
+  height: 100vh;
+}
+.participant-register aside {
+  width: 31%;
+  flex: 0 0 31%;
+  padding: 48px;
+}
+.participant-register aside .outer {
+  max-width: 360px;
+  width: 100%;
+  margin-left: auto;
+}
+.participant-register main {
+  padding: 120px 160px;
+  flex: 0 0 69%;
+  width: 69%;
+  background-color: #fff;
+  height: 100vh;
+  overflow-y: auto;
+}
+.participant-register aside .navbar-brand {
+  filter: brightness(0) invert(1);
+}
+.participant-register .stepper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.participant-register .step {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #6b7280;
+  font-size: 14px;
+  width: 90px;
+  gap: 3px;
+}
+.participant-register .step span:first-of-type {
+  width: 24px;
+  height: 24px;
+  background-color: #e5e5e5;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.participant-register .step.active span:first-of-type {
+  background-color: var(--codh-primary);
+  color: #fff;
+}
+.participant-register .step.active {
+  color: var(--codh-primary);
+  font-weight: 600;
+}
+.participant-register .step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10vw;
+  height: 1px;
+  width: 6vw;
+  background-color: #e5e7eb;
+}
+.participant-register .form-check .form-check-input {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.participant-register #nextBtn {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+/* Participant register code ends */
 
 @media screen and (max-width: 1399px) {
   /* Homepage code starts */
