@@ -692,14 +692,14 @@ textarea.form-control {
   align-items: center;
   justify-content: center;
 }
-/* .participant-register .step.active span:first-of-type {
+.participant-register .step.active span:first-of-type {
   background-color: var(--codh-primary);
   color: #fff;
-} */
-/* .participant-register .step.active {
+}
+.participant-register .step.active {
   color: var(--codh-primary);
   font-weight: 600;
-} */
+}
 .participant-register .step.completed {
   position: relative;
 }
@@ -720,7 +720,7 @@ textarea.form-control {
   content: "";
   position: absolute;
   top: 50%;
-  left: 10vw;
+  left: 11vw;
   height: 1px;
   width: 6vw;
   background-color: #e5e7eb;
