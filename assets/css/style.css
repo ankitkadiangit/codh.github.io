@@ -21,6 +21,7 @@
 
 :root {
   --codh-primary: #134173;
+  --codh-secondary: #067d88;
 }
 
 * {
@@ -809,6 +810,57 @@ textarea.form-control {
   background-color: #fff;
 }
 /* Login page code ends */
+
+/* Assessment question code starts */
+.assessment .participant-register {
+  background-color: #fff;
+  height: auto;
+  padding: 40px;
+  max-width: 920px;
+  margin: 8px auto 0;
+  border-radius: 8px;
+  box-shadow: 0px 6px 16px -4px #3a35411a;
+  box-shadow: 0px 2px 12px -4px #3a354114;
+  box-shadow: 0px 2px 12px -4px #3a354126;
+}
+.assessment .step-one {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+}
+.assessment .step-one-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../images/step-disabled.svg);
+}
+.assessment .completed .step-one-icon {
+  background-image: url(../images/step-success.svg);
+}
+.assessment .completed .step-one-text {
+  color: #0d0b26;
+}
+.assessment .active .step-one-icon {
+  background-image: url(../images/step-active.svg);
+}
+.assessment .active .step-one-text {
+  color: var(--codh-secondary);
+}
+.assessment .step-one-outer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+}
+.assessment .step-one-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #67778e;
+  max-width: 130px;
+}
+/* Assessment question code ends */
 
 @media screen and (max-width: 1399px) {
   /* Homepage code starts */
