@@ -44,7 +44,9 @@
 
   <section class="assessment assessment-intro">
     <div class="container">
+      <!-- Button trigger modal -->
       <div class="participant-register">
+        <a class="close-assessment" href="peter-self-enrolled.html">&times;</a>
         <div class="outer w-100">
           <div class="step-one">
             <span class="step-one-outer completed">
@@ -63,21 +65,26 @@
             </span>
           </div>
 
-          <div class="step-one">
+          <div class="step-one step-two">
             <span class="step-one-outer completed">
               <span class="step-one-icon"></span>
+              <span class="step-one-text">1</span>
             </span>
             <span class="step-one-outer active">
               <span class="step-one-icon"></span>
+              <span class="step-one-text">2</span>
             </span>
             <span class="step-one-outer">
               <span class="step-one-icon"></span>
+              <span class="step-one-text">3</span>
             </span>
             <span class="step-one-outer">
               <span class="step-one-icon"></span>
+              <span class="step-one-text">4</span>
             </span>
             <span class="step-one-outer">
               <span class="step-one-icon"></span>
+              <span class="step-one-text">5</span>
             </span>
           </div>
 
@@ -87,9 +94,53 @@
             <button class="btn btn-primary">Next</button>
           </div>
         </div>
+        <button type="button" class="btn btn-primary help-btn fs-5" data-bs-toggle="modal" data-bs-target="#needHelp">
+          Help
+        </button>
       </div>
     </div>
   </section>
+
+
+
+
+  <!-- Modal for need help -->
+  <div class="modal fade" id="needHelp" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body px-5 pt-3 pb-5">
+          <div class="alert alert-primary">
+            <h4 class="alert-heading text-center">Need Assistance or Can't Complete the Assessment? We're Here to Help!
+            </h4>
+            <p class="mb-0 text-center">If you find yourself struggling to complete the assessment or if you need any
+              form of help,
+              please don't
+              hesitate to reach out. Our team is dedicated to supporting you throughout this process. Whether you have a
+              question, need clarification, or face any hurdles, we're just an email or a phone call away.</p>
+          </div>
+          <div class="mt-4">
+            <h5 class="text-center">Contact Details:</h5>
+            <ul class="list-inline d-flex gap-3 mt-3 justify-content-center">
+              <li class="px-4 py-3 border rounded">
+                <strong class="border-end border-secondary-subtle pe-2 me-2">Email</strong>
+                <a class="text-decoration-none" href="mailto:abc@xyz.com">abc@xyz.com</a>
+              </li>
+              <li class="px-4 py-3 border rounded">
+                <strong class="border-end border-secondary-subtle pe-2 me-2">Phone</strong>
+                <a class="text-decoration-none" href="tel:+9876543210">+98 765 43 210</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
 
 
   <footer id="footer" class="footer">
