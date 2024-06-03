@@ -812,7 +812,7 @@ textarea.form-control {
   background-color: #fff;
   height: auto;
   padding: 40px;
-  max-width: 920px;
+  max-width: 100%;
   margin: 8px auto 0;
   position: relative;
   border-radius: 8px;
@@ -855,7 +855,7 @@ textarea.form-control {
   font-size: 14px;
   font-weight: 500;
   color: #67778e;
-  max-width: 130px;
+  max-width: 100%;
 }
 .assessment .step-two {
   justify-content: space-between;
@@ -947,7 +947,7 @@ textarea.form-control {
 }
 .assessment .help-btn {
   position: absolute;
-  right: -120px;
+  right: 0;
   bottom: -70px;
 }
 /* Assessment question code ends */
