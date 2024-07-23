@@ -983,6 +983,7 @@ textarea.form-control {
   padding: 96px 0;
   background: var(--codh-primary);
   position: relative;
+  z-index: 0;
 }
 .small-banner .banner-shape {
   position: absolute;
@@ -994,6 +995,7 @@ textarea.form-control {
   bottom: 0;
   margin: auto;
   object-fit: cover;
+  z-index: -1;
 }
 .small-banner .banner-shape-mobile {
   display: none;
@@ -1002,6 +1004,7 @@ textarea.form-control {
   color: #fff;
   text-align: center;
   font-weight: 600;
+  margin-bottom: 0;
 }
 /* Small banner code ends */
 
