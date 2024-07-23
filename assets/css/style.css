@@ -431,7 +431,7 @@ header .avatar {
 .footer {
   background-color: #1f2937;
   color: #f0f4f8;
-  padding-top: 40px;
+  padding-top: 48px;
 }
 .footer-links ul {
   list-style: none;
@@ -441,43 +441,27 @@ header .avatar {
   color: #f0f4f8;
   text-decoration: none;
 }
-.footer-about a {
-  margin-bottom: 10px;
+.footer-about {
+  text-align: center;
 }
-.footer-about p {
-  font-size: 14px;
-  max-width: 330px;
+.footer-about .logo img {
+  height: 72px;
+  width: auto;
 }
-.footer-links h4,
-.footer-contact h4 {
-  margin-bottom: 32px;
-  font-size: 20px;
-  font-weight: 600;
+.footer-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 0;
 }
 .footer-links ul li a {
   color: #f0f4f8;
   text-decoration: none;
-  margin-bottom: 16px;
-  display: block;
-}
-.footer .contact-us .form-control {
-  width: 302px;
-  height: 44px;
-  background: transparent;
-  color: #fff;
-  margin-bottom: 24px;
-}
-.footer .contact-us .form-control::placeholder {
-  color: #fff;
-}
-.footer .email-submit .btn.btn-primary.email-submit {
-  background-color: #fff;
-  border: 1px solid #fff;
-  color: #111827;
-  padding: 8px 24px;
 }
 .footer .copyright {
-  padding: 16px 80px;
+  margin-top: 48px;
+  padding: 24px 0;
   display: inline-block;
   width: 100%;
   border-color: #6b7280 !important;
@@ -501,7 +485,7 @@ header .avatar {
 }
 footer .footer-links,
 footer .footer-contact {
-  margin-top: 16px;
+  margin-top: 32px;
 }
 .footer .credits {
   float: right;
@@ -1234,22 +1218,24 @@ textarea.form-control {
     font-size: 16px;
     line-height: 24px;
   }
-  .footer-about .logo img {
-    width: 119px;
-    height: auto;
+  .footer {
+    padding-top: 40px;
   }
-  footer .footer-links,
-  footer .footer-contact {
-    margin-top: 48px;
+  .footer-about {
+    text-align: left;
+  }
+  .footer-about .logo img {
+    height: 56px;
   }
   .footer-links ul {
-    margin-bottom: 0;
-  }
-  .footer-links ul li a {
-    margin: 16px 0 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
   }
   .footer .copyright {
-    padding: 16px;
+    margin-top: 32px;
+    padding: 32px 0 40px;
+    font-size: 14px;
   }
   .footer .copyright p {
     float: none;
@@ -1257,7 +1243,7 @@ textarea.form-control {
   }
   .footer .credits {
     float: none;
-    margin: 12px 0 16px;
+    margin-top: 12px;
   }
   /* Homepage code ends */
 
