@@ -1172,6 +1172,9 @@ textarea.form-control {
   .why-us .icon-bg + h2 {
     font-size: 26px;
   }
+  .program-news .spacing {
+    padding-right: 0;
+  }
   /* Homepage code ends */
 }
 
@@ -1214,7 +1217,7 @@ textarea.form-control {
     font-size: 14px;
   }
   .about-us {
-    padding-top: 64px;
+    padding: 56px 0;
   }
   .about-us .about-text {
     font-size: 16px;
@@ -1269,7 +1272,7 @@ textarea.form-control {
     margin-top: 24px;
   }
   .why-us {
-    padding-bottom: 64px;
+    padding: 56px 0;
   }
   .why-us .sub-heading {
     margin-bottom: 0;
@@ -1278,6 +1281,25 @@ textarea.form-control {
     height: 400px;
     margin-top: 32px;
     padding: 32px 24px;
+  }
+  .program-news {
+    padding: 56px 0;
+  }
+  .program-news .program-details {
+    margin-top: 24px;
+  }
+  .program-news .name {
+    font-size: 16px;
+  }
+  .program-news .details {
+    font-size: 14px;
+  }
+  .program-news .news-details {
+    margin-top: 16px;
+    padding-left: 16px;
+  }
+  .program-news .news-title {
+    margin: 56px 0 8px;
   }
   .how-it-works .heading-g-color {
     margin-bottom: 0;
@@ -1290,7 +1312,7 @@ textarea.form-control {
     max-width: 100%;
   }
   .faq {
-    padding: 64px 0;
+    padding: 56px 0;
   }
   .faq .heading-g-color {
     margin-bottom: 24px;
