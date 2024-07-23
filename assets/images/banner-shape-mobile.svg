@@ -1,0 +1,10 @@
+<svg width="428" height="160" viewBox="0 0 428 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M423.94 81C501.812 81 564.94 17.8721 564.94 -60C564.94 -137.872 501.812 -201 423.94 -201C346.068 -201 282.94 -137.872 282.94 -60C282.94 17.8721 346.068 81 423.94 81ZM423.94 57C488.557 57 540.94 4.61731 540.94 -60C540.94 -124.617 488.557 -177 423.94 -177C359.323 -177 306.94 -124.617 306.94 -60C306.94 4.61731 359.323 57 423.94 57Z" fill="#FF3C3C"/>
+<g opacity="0.2">
+<rect x="-23.4407" y="131.184" width="23.3191" height="274" transform="rotate(-30 -23.4407 131.184)" fill="#F2C94C"/>
+<rect x="-63.7546" y="174.971" width="23.3191" height="274" transform="rotate(-55 -63.7546 174.971)" fill="#F2C94C"/>
+<rect x="-42.2966" y="340.994" width="23.3191" height="274" transform="rotate(-130 -42.2966 340.994)" fill="#F2C94C"/>
+<rect x="7.82544" y="373.092" width="23.3191" height="274" transform="rotate(-155 7.82544 373.092)" fill="#067D88"/>
+<rect x="66.8167" y="381.001" width="23.3191" height="274" transform="rotate(180 66.8167 381.001)" fill="white"/>
+</g>
+</svg>

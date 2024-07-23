@@ -982,6 +982,21 @@ textarea.form-control {
 .small-banner {
   padding: 96px 0;
   background: var(--codh-primary);
+  position: relative;
+}
+.small-banner .banner-shape {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  object-fit: cover;
+}
+.small-banner .banner-shape-mobile {
+  display: none;
 }
 .small-banner .h1 {
   color: #fff;
@@ -1242,4 +1257,23 @@ textarea.form-control {
     margin: 12px 0 16px;
   }
   /* Homepage code ends */
+
+  .small-banner {
+    padding: 60px 0;
+  }
+  .small-banner .banner-shape {
+    display: none;
+  }
+  .small-banner .banner-shape-mobile {
+    display: block;
+  }
+
+  /* Team page code starts */
+  .team-cards {
+    padding: 56px 0;
+  }
+  .team-cards .cards-outer {
+    margin-top: 24px;
+  }
+  /* Team page code ends */
 }
