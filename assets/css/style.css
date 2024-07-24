@@ -1165,7 +1165,8 @@ li {
 .faq {
   padding: 80px 0;
 }
-.faq.page {
+.faq.background {
+  background-color: #e1eff1;
 }
 .faq .heading-g-color {
   color: var(--codh-primary);
@@ -1187,6 +1188,7 @@ li {
 .faq .accordion-item {
   border: none;
   border-radius: 0;
+  background-color: transparent;
 }
 .faq .accordion-item:first-of-type button {
   border-top: none;
@@ -1206,11 +1208,18 @@ li {
   border-color: #e5e5e5 !important;
   border-radius: 0 !important;
 }
+.faq.background .accordion-button {
+  border-color: #b9d0d3 !important;
+}
 .faq .accordion-button[aria-expanded="true"] {
   background-color: #f5f5f5;
   border-radius: 12px 12px 0 0 !important;
   box-shadow: none;
   border-top: none;
+}
+.faq.background .accordion-button[aria-expanded="true"],
+.faq.background .accordion-body {
+  background-color: #f7feff;
 }
 .faq .accordion-body {
   padding: 0 16px 16px;
@@ -1228,6 +1237,9 @@ li {
   height: 1px;
   width: 100%;
   z-index: 3;
+}
+.faq.background .accordion-body::after {
+  background-color: #e1eff1;
 }
 .faq .accordion-body h4 {
   margin-bottom: 14px;
