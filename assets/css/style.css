@@ -1156,7 +1156,7 @@ textarea.form-control {
 }
 /* Research and papers code ends */
 
-/* Terms page code starts */
+/* Terms and conditions page code starts */
 .research.terms .research-data {
   flex-direction: column;
   font-size: 16px;
@@ -1185,7 +1185,22 @@ li {
 .research.terms .research-data p:last-child {
   font-size: 16px;
 }
-/* Terms page code ends */
+/* Terms and conditions page code ends */
+
+/* Privacy page code starts */
+.privacy h3 {
+  margin-bottom: 0;
+}
+.privacy.terms h5:first-of-type {
+  margin-top: 32px;
+}
+.privacy.terms h3 {
+  margin-top: 32px;
+}
+.privacy.terms h3:first-of-type {
+  margin-top: 0;
+}
+/* Privacy page code ends */
 
 @media screen and (max-width: 1399px) {
   /* Homepage code starts */
