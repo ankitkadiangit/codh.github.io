@@ -38,8 +38,9 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: var(--codh-secondary);
   text-decoration: none;
+  font-weight: 600;
+  color: #2a62a7;
 }
 .btn-primary {
   background: var(--codh-primary);
@@ -509,7 +510,9 @@ header .avatar {
 .faq .accordion-button {
   background-color: #f9fafb;
 }
+/* Homepage code ends */
 
+/* Footer code starts */
 .footer {
   background-color: #1f2937;
   color: #f0f4f8;
@@ -540,6 +543,7 @@ header .avatar {
 .footer-links ul li a {
   color: #f0f4f8;
   text-decoration: none;
+  font-weight: 400;
 }
 .footer .copyright {
   margin-top: 48px;
@@ -554,11 +558,13 @@ header .avatar {
 }
 .footer .credits ul {
   list-style: none;
+  display: flex;
+  gap: 32px;
 }
 .footer .credits ul li a {
   text-decoration: none;
-  margin-right: 12px;
   color: #fff;
+  font-weight: 400;
 }
 .footer .btn.btn-primary.email-submit {
   background-color: #fff;
@@ -572,7 +578,7 @@ footer .footer-contact {
 .footer .credits {
   float: right;
 }
-/* Homepage code ends */
+/* Footer code ends */
 
 /* Peter self enrolled page code starts */
 .assessment {
@@ -1109,6 +1115,47 @@ textarea.form-control {
 }
 /* Team page code ends */
 
+/* Research and papers code starts */
+.research {
+  padding: 80px 0;
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+.research .research-data {
+  display: flex;
+  gap: 56px;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 48px;
+  margin-top: 48px;
+  border-top: 1px solid #e5e5e5;
+}
+.research .research-data a {
+  display: flex;
+  gap: 32px;
+}
+.research .research-data:first-of-type {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: none;
+}
+.research .research-data p {
+  margin-bottom: 0;
+}
+.research .research-data p:first-child {
+  flex: 0 0 320px;
+}
+.research .research-data p:last-child {
+  font-size: 18px;
+  font-weight: 400;
+  color: #545454;
+}
+.research .research-data svg {
+  flex: 0 0 40px;
+}
+/* Research and papers code ends */
+
 @media screen and (max-width: 1399px) {
   /* Homepage code starts */
   .about-us .tutorial-link {
@@ -1369,4 +1416,29 @@ textarea.form-control {
     margin-top: 24px;
   }
   /* Team page code ends */
+
+  /* Research and papers page code starts */
+  .research {
+    padding: 56px 0;
+  }
+  .research .research-data,
+  .research .research-data a {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 16px;
+  }
+  .research .research-data a {
+    gap: 12px;
+  }
+  .research .research-data {
+    padding-top: 16px;
+    margin-top: 16px;
+  }
+  .research .research-data p:first-child {
+    flex: 0 0 auto;
+  }
+  .research .research-data p:last-child {
+    font-size: 14px;
+  }
+  /* Research and papers page code ends */
 }
