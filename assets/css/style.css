@@ -679,6 +679,7 @@ footer .footer-contact {
 }
 .form-label {
   color: var(--codh-primary);
+  display: block;
 }
 .form-control,
 .form-select {
