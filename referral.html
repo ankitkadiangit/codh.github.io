@@ -11,23 +11,25 @@
 
 <body>
 
-  <div class="participant-register">
+  <div class="referral participant-register">
     <aside>
       <div class="outer">
         <a class="navbar-brand" href="index.html">
           <img src="assets/images/logo.png" alt="" width="150" height="60" class="d-inline-block align-text-top" />
         </a>
-        <h4 class="text-white mt-5 fw-semibold">About CODH Program</h3>
+        <h4 class="text-white mt-5 fw-semibold">Referral</h3>
           <p class="text-white">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard.
+            Our patient referral page streamlines the referral process for healthcare providers. Easily refer patients
+            to our specialized services with a simple form, ensuring seamless communication and efficient care
+            coordination. Access resources and updates to support patient transitions, improving overall healthcare
+            outcomes and fostering collaborative professional relationships.
           </p>
       </div>
     </aside>
 
     <main>
       <div class="outer">
-        <a href="index.html" class="btn btn-link d-inline-flex align-items-center gap-2 mb-5 fw-medium">
+        <a href="index.html" class="btn btn-link d-inline-flex align-items-center gap-2 fw-medium">
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M13.3162 19C12.8751 18.9999 12.4521 18.8104 12.1403 18.4732L5.487 11.2821C5.17517 10.9449 5 10.4878 5 10.011C5 9.53434 5.17517 9.07714 5.487 8.74001L12.1403 1.54884C12.2937 1.37714 12.4772 1.24018 12.6802 1.14596C12.8831 1.05174 13.1014 1.00214 13.3222 1.00007C13.5431 0.997994 13.7621 1.04348 13.9665 1.13387C14.1709 1.22427 14.3567 1.35776 14.5128 1.52656C14.669 1.69536 14.7925 1.89609 14.8761 2.11703C14.9598 2.33797 15.0019 2.5747 14.9999 2.81341C14.998 3.05212 14.9521 3.28803 14.865 3.50737C14.7778 3.7267 14.6511 3.92508 14.4922 4.09092L9.0149 10.011L14.4922 15.9312C14.7248 16.1826 14.8831 16.5029 14.9473 16.8516C15.0114 17.2003 14.9785 17.5617 14.8526 17.8901C14.7267 18.2186 14.5136 18.4993 14.2401 18.6969C13.9667 18.8944 13.6452 18.9999 13.3162 19Z"
@@ -37,7 +39,7 @@
 
 
         <form action="">
-          <div>
+          <div class="referral-outer">
             <h4 class="mb-4">Personal details</h4>
             <div class="row">
               <div class="col-md-6">
@@ -56,10 +58,11 @@
                 <div class="mb-4">
                   <label for="gender" class="form-label">What is the participant’s gender?</label>
                   <select id="gender" class="form-select" required>
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Non-binary</option>
-                    <option>Prefer not to answer</option>
+                    <option>Woman</option>
+                    <option>Man</option>
+                    <option>Non-binary / gender diverse</option>
+                    <option>My gender identity isn’t listed</option>
+                    <option>Prefer not to say</option>
                     <option selected>Other</option>
                   </select>
                 </div>
@@ -90,10 +93,10 @@
                 <div class="">
                   <label for="gender" class="form-label">What is their primary language?</label>
                   <select id="gender" class="form-select" required>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
+                    <option>English</option>
+                    <option>Italian</option>
+                    <option>Greek</option>
+                    <option>Chinese (Mandarin)</option>
                     <option selected>Other</option>
                   </select>
                 </div>
@@ -137,7 +140,7 @@
                     <!-- <input type="radio" class="btn-check" name="registerAge" id="registerAgeNo" autocomplete="off"> -->
                     <a class="btn btn-outline-primary" for="registerAgeNo">No</a>
                   </div>
-                  <p class="text-danger mt-2 mb-4">Unfortunately this study is not suitable for people experiencing
+                  <p class="text-danger mt-2 mb-0">Unfortunately this study is not suitable for people experiencing
                     these health conditions. the participant’s GP for information about other services that may be
                     appropriate. If you have any questions about this please contact us at:
                     <a href="mailto:healthybrainhub@monash.edu"> healthybrainhub@monash.edu</a>
@@ -147,7 +150,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="referral-outer">
             <h4 class="mb-4">Contact details</h4>
             <div class="row">
               <div class="col-md-6">
@@ -226,7 +229,7 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="question mb-4">
+                <div class="question">
                   <label class="form-label">Is the participant’s contact person aware of this referral?</label>
                   <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                     <!-- <input type="radio" class="btn-check" name="registerAge" id="registerAgeYes" autocomplete="off" checked> -->
@@ -240,7 +243,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="referral-outer">
             <h4 class="mb-4">GP details</h4>
             <div class="row">
               <div class="col-md-6">
@@ -256,7 +259,7 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="question mb-4">
+                <div class="question">
                   <label class="form-label">Is the participant’s GP aware of this referral?</label>
                   <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                     <!-- <input type="radio" class="btn-check" name="registerAge" id="registerAgeYes" autocomplete="off" checked> -->
@@ -270,7 +273,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="referral-outer">
             <h4 class="mb-4">Referral from Another Study</h4>
             <div class="row">
               <div class="col-md-12">
@@ -278,12 +281,11 @@
                   <label for="gender" class="form-label">To your knowledge, is the participant being referred currently
                     enrolled in another research study?</label>
                   <select id="gender" class="form-select" required>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
                     <option selected>Yes – The Centre for Research Excellence in Enhanced Dementia Diagnosis (CREEDD)
                     </option>
+                    <option>Yes – The Residential Aged Care Enhanced Dementia Diagnosis (RACEDD) Study</option>
+                    <option>Yes – Other</option>
+                    <option>No</option>
                   </select>
                 </div>
               </div>
@@ -302,13 +304,13 @@
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="mb-4">
+                <div class="">
                   <label for="firstname" class="form-label">If Yes – Other, please specify study name</label>
                   <input type="text" class="form-control" id="firstname" required>
                 </div>
               </div>
               <div class="col-md-6">
-                <div class="mb-4">
+                <div class="">
                   <label for="firstname" class="form-label">If Yes – Other, please specify study ID</label>
                   <input type="text" class="form-control" id="firstname" required>
                 </div>
@@ -316,7 +318,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="referral-outer">
             <h4 class="mb-4">Referrer Information</h4>
             <div class="row">
               <div class="col-md-6">
@@ -335,12 +337,13 @@
                 <div class="mb-4">
                   <label for="gender" class="form-label">Relationship to participant being referred</label>
                   <select id="gender" class="form-select" required>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option selected>GP
-                    </option>
+                    <option selected>GP</option>
+                    <option>Medical specialist</option>
+                    <option>Allied health care provider</option>
+                    <option>Other health care provider</option>
+                    <option>Case Manager</option>
+                    <option>Carer / Family Member / Support Person</option>
+                    <option>Study Coordinator (CREEDD / RACEDD / Other)</option>
                   </select>
                 </div>
               </div>
@@ -363,7 +366,7 @@
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="mb-4">
+                <div class="">
                   <label for="address" class="form-label">Reason for referral (please briefly describe)</label>
                   <textarea class="form-control" id="address" rows="2"></textarea>
                 </div>
